@@ -1,0 +1,44 @@
+<!doctype html>
+
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="{{url_for('static',filename='css/style.css')}}"
+    />
+  </head>
+  <body>
+    <form action="/insertData" method="POST">
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="enter your name: "
+      />
+      <input
+        type="text"
+        id="mobile"
+        name="mobile"
+        placeholder="enter your name: "
+      />
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="enter your name: "
+      />
+      <input
+        type="text"
+        id="accno"
+        name="accno"
+        placeholder="enter your name: "
+      />
+      <input
+        type="text"
+        id="balance"
+        name="balance"
+        placeholder="enter your name: "
+      />
+    </form>
+  </body>
+</html>
